@@ -1,26 +1,26 @@
 let basket_json = {
-    1: {
+    {
         img: '../media/media/ice-cream/01.png',
         name: 'ice-cream',
         price: 15000,
         count: 3,
         'total price': 45000,
     },
-    2: {
+    {
         img: '../media/media/chocolate/04.png',
         name: 'chocolate',
         price: 12000,
         count: 1,
         'total price': 12000,
     },
-    3: {
+    {
         img: '../media/media/drink/03.png',
         name: 'drink',
         price: 3000,
         count: 5,
         'total price': 15000,
     },
-    4: {
+     {
         img: '../media/media/chocolate/13.png',
         name: 'chocolate',
         price: 20000,
@@ -31,7 +31,7 @@ let basket_json = {
 
 let productContainer = document.querySelector('.product');
 
-for (let i = 1; i<5; i++) {
+for (let i = 1; i<=basket_json.length; i++) {
     let div = document.createElement('div');
     div.classList.add('product-itemm');
 
