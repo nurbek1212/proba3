@@ -1,0 +1,66 @@
+.header{
+    background-color: #F15BB5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+}
+.ice-cream-picture{
+    width: 60%;
+    height: 400px;
+    /* background-color: #F15B; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ice-cream-information{
+    width: 40%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    
+    
+}
+.emblame{
+    border: 2px solid black;
+    width: 720px;
+    height: 30px;
+    line-height: 90px;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.emblame:hover{
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+    scale: 0.5;
+}
+.header2-chocolate{
+    background-color: #FEE440;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+.header3-drink{
+    background-color:  #9B5DE5;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+
+}

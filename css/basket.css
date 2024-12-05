@@ -1,0 +1,87 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff7043;
+    padding: 10px 20px;
+}
+
+.navbar-items li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.product-itemm {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.drinkimg {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-name,
+.product-price,
+.count-price,
+.total-price {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.total-price {
+    color: red;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+}
+.minus{
+    padding-bottom: 2px;
+    margin-right: -30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+}
+
+.delete:hover {
+    background-color: #cc0000;
+}
+.minus:hover {
+    background-color: rgb(38, 23, 175);
+}

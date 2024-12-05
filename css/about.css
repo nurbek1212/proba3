@@ -1,0 +1,107 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff7043;
+    z-index: 10; /* Ensure header is above the video */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 60px;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-items li {
+    margin-left: 20px;
+}
+
+.navbar-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items a:hover {
+    color: #ffe0b2;
+}
+
+/* Video Section */
+.video_container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: 60px; /* To prevent the video from overlapping the navbar */
+}
+
+.video_container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: 1;
+}
+
+.background {
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+    margin-left: 980px;
+    margin-top: 485px;
+}
+
+.background .text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.background .text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.background .text ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.background .text ul li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #ff7043;
+}
+

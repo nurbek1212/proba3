@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "dars",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "emmet.useInlineCompletions": true,
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    }
+}
