@@ -32,8 +32,11 @@
 }
 .navbar-items li{
     list-style: none;
-  
+   
     
+}
+.actvity{
+    color: #600fff !important;
 }
 .navbar-child-items{
     position: absolute;
